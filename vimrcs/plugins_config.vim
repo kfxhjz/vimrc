@@ -119,7 +119,7 @@ let g:lightline = {
       \ 'active': {
       \   'left': [ ['mode', 'paste'],
       \             ['fugitive', 'readonly', 'filename', 'modified'] ],
-      \   'right': [ [ 'lineinfo' ], ['percent'] ]
+      \   'right': [ ['lineinfo'], ['percent'], ['fileencoding'], ['fileformat'] ]
       \ },
       \ 'component': {
       \   'readonly': '%{&filetype=="help"?"":&readonly?"🔒":""}',
